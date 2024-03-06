@@ -21,10 +21,10 @@ const zucchineLarge = zucchine.filter(zucchina => zucchina.length >= 15);
 
 
 let zucchineSmallTotalWeight = 0;
-zucchineSmall.forEach(zucchina => zucchineSmallTotalWeight += zucchina.weight);
+zucchineSmall.forEach(zucchina => zucchineSmallTotalWeight += zucchina.peso);
 
 let zucchineLargeTotalWeight = 0;
-zucchineLarge.forEach(zucchina => zucchineLargeTotalWeight += zucchina.weight);
+zucchineLarge.forEach(zucchina => zucchineLargeTotalWeight += zucchina.peso);
 
 console.log(zucchineSmall);
 console.log(`Il peso totale delle zucchine corte è ${zucchineSmallTotalWeight}g`);
